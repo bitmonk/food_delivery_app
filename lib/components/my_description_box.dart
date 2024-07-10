@@ -29,7 +29,7 @@ class MyDescriptionBox extends StatelessWidget {
           Column(
             children: [
               Text(
-                '/Npr 120',
+                'Npr 120',
                 style: primaryTextStyle,
               ),
               Text(
