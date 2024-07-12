@@ -23,11 +23,11 @@ class MyFoodTile extends StatelessWidget {
                     children: [
                       Text(food.name),
                       Text(
-                        'Rs' + food.price.toString(),
+                        'Rs${food.price.toString()}',
                         style: TextStyle(
                             color: Theme.of(context).colorScheme.primary),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 10,
                       ),
                       Text(
